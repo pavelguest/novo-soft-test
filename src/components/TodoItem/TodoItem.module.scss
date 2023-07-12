@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(0 0 0 / 12%);
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.title {
+  font-size: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.completeTitle {
+  font-size: 20px;
+  word-wrap: break-word;
+  word-break: break-all;
+
+  text-decoration-line: line-through;
+}
+
+.buttonsContainer {
+  display: flex;
+  column-gap: 10px;
+}
+
+.deleteButton {
+  height: 40px;
+  padding: "5px 10px";
+  color: "white";
+  background-color: "red";
+  border: "none";
+  border-radius: "5px";
+  cursor: "pointer";
+}
+
+@media (max-width: 768px) {
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 10px;
+  }
+}
