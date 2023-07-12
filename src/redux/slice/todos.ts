@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { IInitialState } from "../types/reposTypes";
+import { IInitialState } from "../types/todosTypes";
 
 const initialState: IInitialState = {
   todos: JSON.parse(localStorage.getItem("todos") || "[]"),

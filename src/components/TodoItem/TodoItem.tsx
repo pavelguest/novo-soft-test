@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./TodoItem.module.scss";
 import { useNavigate } from "react-router-dom";
 import { useAppDispatch } from "../../redux/hooks/redux";
-import { ITodo } from "../../redux/types/reposTypes";
+import { ITodo } from "../../redux/types/todosTypes";
 import { actions } from "../../redux/slice/todos";
 
 interface TodoItemProps {
